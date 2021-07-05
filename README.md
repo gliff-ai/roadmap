@@ -50,7 +50,6 @@ Every item on the roadmap is a GitHub Issue, with a group of labels as described
 - A **complexity**, one of *S*, *M*, *L*, *XL* or *XXL*.
 
 ### Roadmap stages
-![gliff logo black (beta) (1)](https://user-images.githubusercontent.com/7795189/124491994-ca69a780-ddab-11eb-8766-255cd36b166b.png)
 
 The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon.
 Every feature is added to a particular project board column according to the its progress.
