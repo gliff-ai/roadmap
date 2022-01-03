@@ -6,7 +6,7 @@ This repository contains the ROADMAP for [gliff.ai](https://gliff.ai)’s MLOps 
 
 Our ROADMAP details the [gliff.ai](https://gliff.ai)’s product framework and our teams’ development plan and progress (current and future) along with behind the scenes discussions and directional thinking. Please check out this repositories project board to see our current raised issues, their progress, development stage and expected product deployment location. This repository will be updated during sprint planning and retrospectives as well as key company milestones by the [gliff.ai team](https://gliff.ai/about/). **Next update is expected early 2022.**
 
-❌ **This repository does not currently accept contributions unfortunately!** ❌
+❌ **This repository does not accept most contributions unfortunately! However, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.** ❌
 
 ## Table of Contents
 
@@ -101,9 +101,9 @@ Every item on the board is then categorised through **3 label groups** to commun
 
 [{{back to navigation}}](#table-of-contents)
 
-This repository **does not accept contributions** unfortunately as content has been developed with specific gliff.ai team practises and preferences in mind.
+This repository **does not accept contributions** unfortunately as content has been developed with specific gliff.ai team practises and preferences in mind. _However_, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.
 
-However, we do have several repositories within the gliff.ai github space that we welcome all contributors and any contributions on. These will be marked with the topic tag **contributors-welcome** meaning we welcome contributions on this repository! Search for them [here](https://github.com/search?q=topic%3Acontributors-welcome+org%3Agliff-ai&type=Repositories)!
+We do have several repositories within the gliff.ai github space that  welcome all contributions and contributors on. These will be marked with the topic tag **contributions-welcome** meaning we welcome contributions on this repository! Search for them [here](https://github.com/search?q=topic%3Acontributors-welcome+org%3Agliff-ai&type=Repositories)!
 
 Check out the [gliff.ai Contribution Guide](https://github.com/gliff-ai/.github/blob/main/CONTRIBUTING.md) 👋 to learn more!
 
