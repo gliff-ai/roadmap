@@ -1,7 +1,7 @@
 # gliff.ai ROADMAP
 
-👋 **Welcome in!**
-👋
+👋 **Welcome in!** 👋
+
 This repository contains the ROADMAP for [gliff.ai](https://gliff.ai)’s MLOps platform.
 
 Our ROADMAP details the [gliff.ai](https://gliff.ai)’s product framework and our teams’ development plan and progress (current and future) along with behind the scenes discussions and directional thinking. Please check out this repositories project board to see our current raised issues, their progress, development stage and expected product deployment location. This repository will be updated during sprint planning and retrospectives as well as key company milestones by the [gliff.ai team](https://gliff.ai/about/). **Next update is expected early 2022.**
@@ -12,7 +12,7 @@ Our ROADMAP details the [gliff.ai](https://gliff.ai)’s product framework and o
 
 Looking for something specific? 🔍
 
-- [Repository Introduction](#gliffai-annotate)
+- [Repository Introduction](#gliffai-roadmap)
 - [Mission](#demo-preview)
 - [Products](#table-of-contents)
 - [Guide](#installation)
