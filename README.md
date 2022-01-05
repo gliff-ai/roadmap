@@ -71,7 +71,7 @@ The board is organised into **4 columns** to communicate development progress/st
 - **future** – feature is expected to be introduced after 6 months time.
 - **exploration** – fearure has been requested/proposed but no engineering has yet occured.
 
-Every item on the board is then categorised through **3 label groups** to communicate product location development, item priority and item complexity. These are:
+Every item on the board is then categorised through **1 label group** to communicate location of product development. This is:
 
 **Product**  (gliff.ai green – #02FFAD)
 - [ANNOTATE](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AANNNOTATE+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
@@ -82,20 +82,6 @@ Every item on the board is then categorised through **3 label groups** to commun
 - [REGISTER](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AREGISTER+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
 - [UPLOAD](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AUPLOAD+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
 - [DOCUMENT](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ADOCUMENT+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-
-**Priority**  (gliff.ai purple – #AE79FF)
-- [Highest](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AHighest+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-- [High](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AHigh+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-- [Medium](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AMedium+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-- [Low](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ALow+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-- [Lowest](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ALowest+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
-
-**Complexity**  (gliff.ai cyan – #00DBFF)
-- [XXL](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AXXL+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=) – Extra extra large task.
-- [XL](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AXL+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=) – Extra large task.
-- [L](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AL+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=) – Large task.
-- [M](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AM+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=) – Medium task.
-- [S](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AS+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=) – Small task.
 
 ## Contribute
 
