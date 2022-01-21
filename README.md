@@ -1,60 +1,103 @@
-# [gliff.ai](https://gliff.ai) product roadmap
+# gliff.ai ROADMAP
 
-<a href="https://gliff.ai"><img src="https://user-images.githubusercontent.com/7795189/124492005-cd649800-ddab-11eb-9000-f3c0831338b7.png" align="right" height="150"></a>
+👋 **Welcome in!** 👋
 
-In this repository, you can find the details of [gliff.ai](https://gliff.ai)'s product framework, including a roadmap for future development.
-This repository is a pulic-facing document where we discuss what features we are planning to develop, which we are currently working on, what stage they are in, and when we expect to deploy them to our products.
-Have any questions or comments about products or items on the roadmap - begin a discussion on the related Issue.
-This repository will be updated during sprint planning and sprint retrospectives by the gliff.ai team.
+This repository contains the ROADMAP for [gliff.ai](https://gliff.ai)’s MLOps platform.
+
+Our ROADMAP details the [gliff.ai](https://gliff.ai)’s product framework and our teams’ development plan and progress (current and future) along with behind the scenes discussions and directional thinking. Please check out this repositories project board to see our current raised issues, their progress, development stage and expected product deployment location. This repository will be updated during sprint planning and retrospectives as well as key company milestones by the [gliff.ai team](https://gliff.ai/about/). 
+
+**STATUS:** Up-to-date! (as of 11/01/2022)
+
+❌ **This repository does not accept most contributions unfortunately! However, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.** ❌
+
+## Table of Contents
+
+Looking for something specific? 🔍
+
+- [Repository Introduction](#gliffai-roadmap)
+- [Mission](#demo-preview)
+- [Products](#table-of-contents)
+- [Guide](#installation)
+- [Contribute](#contribute)
+- [Contact](#contact)
 
 ## Mission
 
-gliff.ai believes that Artificial Intelligence (AI) can improve the lives of people worldwide.
-But AI needs to be properly designed by domain and data experts working together.
-At gliff.ai we help teams come together to build and deploy world-changing AI, all in one platform.
+[{{back to navigation}}](#table-of-contents)
 
-gliff.ai is a privacy-preserving machine learning operations (MLOps) platform revolutionising the development of trustworthy AI - built by data scientists, for everybody.
-Our software brings together our expertise in medical imaging, data analysis and artificial intelligence (AI) with human design and open-source coding practices.
+gliff.ai believes that Artificial Intelligence (AI) can improve the lives of people across the Earth. However, AI must be properly designed by domain and data experts collaborating together and the development fully documented in order to achieve regulatory compliance to be able to make a positive impact on our world.
 
-gliff.ai aims to become *the* productivity framework for generating high-quality, auditable imaging AI.
+gliff.ai is a privacy-preserving MLOps (Machine Learning Operations) platform which is revolutionising the development of trustworthy AI - built by data scientists, for everybody. Our user-friendly browser software brings together our team's expertise in medical imaging, data analysis and AI with human-centered design and open-source coding practises.
 
-## Product definitions
+gliff.ai aims to become _the_ productivity frame for developing high-quality and auditable datasets that satisfy any relevant regulatory frameworks and produce impactful imaging AI.
 
-We split the gliff.ai platform into a series of 'products' - open-source user interfaces focussed on a core set of tasks.
-These products are:
-- [CURATE](https://github.com/gliff-ai/curate): enabling users to curate their datasets, i.e. create projects, add data to projects, update data or projects, etc.
-- [ANNOTATE](https://github.com/gliff-ai/annotate): enabling users to annotate multi-dimensional imaging data with paintbrushes, splines and other annotation tool, all built with our flexible annotation labelling system throughout
-- [MANAGE](https://github.com/gliff-ai/manage): enabling users to manage their team and projects within the gliff.ai platform
-- [AUDIT](https://github.com/gliff-ai/audit) (due mid 2021): enabling users, and regulatory bodies, to audit all the actions that have been taken to develop a dataset, annotations and AI models
-- [REGISTER](https://github.com/gliff-ai/register) (due late 2021): allowing teams to register their AI experiments within the gliff.ai platform with a high-quality, human-readable audit trail
+## Products
 
-Products are always tagged in block capitals.
+[{{back to navigation}}](#table-of-contents)
 
-Our products are also supported by a closed source deployment ecosystem that combines the power of our open-source user interfaces with a highly secure backend that uses end-to-end encryption (based on [etebase](https://github.com/etesync)) to ensure user data stays private.
+Our team split the gliff.ai platform into a series of ‘products’ - open-source software focusing on a core set of tasks. These are:
 
-Plug-ins:
-- Watch this space...
+- [**ANNOTATE**](https://github.com/gliff-ai/annotate) – enabling users to easily and efficiently annotate multidimensional imaging data with a range of tools including paintbrushes and splines, all built with our flexible annotation labelling system throughout.
+- [**CURATE**](https://github.com/gliff-ai/curate) – enabling users to curate (selectively organise and sort) their datasets by adding imagery data to projects, downloading annotated datasets and assigning users annotation tasks.
+- [**MANAGE**](https://github.com/gliff-ai/manage) – enabling users to manage their team, projects and plugins within the gliff.ai platform.
+- [**AUDIT**](https://github.com/gliff-ai/audit) – enabling users, and regulatory bodies, to easily explore a fully documented audit of every single action that has occurred during the development of an annotated dataset and AI model.
 
-Supporting libraries:
-- [UPLOAD](https://github.com/gliff-ai/upload): gliff.ai's wrapper for loading a range of multidimensional data into gliff.ai products
-- [STYLE](https://github.com/gliff-ai/style): gliff.ai's Material UI theme for consistent branding of gliff.ai products
+Our products are also supported by a closed source deployment ecosystem that combines the power of our open-source software with a highly secure backend that uses end-to-end encryption (based on [etebase](https://www.etebase.com)) to ALWAYS ensure user data remains private for their eyes only. 
 
-## Guide to the roadmap
+_^ All gliff.ai products are stylised in **BLOCK CAPITALS**._
 
-Every item on the roadmap is a GitHub Issue, with a group of labels as described below.
+This repository contains the Open Source code for gliff.ai’s UPLOAD repository (gliff.ai’s component for uploading multidimensional images). 
 
-### Roadmap labels
+UPLOAD aims to allow users to easily upload a variety of image files, including multidimensional TIFFs, for the purposes of developing imaging AI products. When the full gliff.ai platform is used, UPLOAD provides just one step in developing high-quality and auditable datasets that satisfy any relevant regulatory frameworks which enables our users to build world-changing and trustworthy AI models and products. 
 
-- A **product** (see the list above) that indicates within which product(s) the feature will be deployed within the wider gliff.ai framework.
-- A **priority**, one of *highest*, *high*, *medium*, *low* or *lowest*.
-- A **complexity**, one of *S*, *M*, *L*, *XL* or *XXL*.
+These products are supported by a series of supporting libraries. These are:
 
-### Roadmap stages
+- [**UPLOAD**](https://github.com/gliff-ai/upload) – gliff.ai’s component allowing for the upload of a variety of image files, including multidimensional TIFFs, into the gliff.ai platform.
+- [**STYLE**](https://github.com/gliff-ai/style) – gliff.ai’s user-interface pattern gallery to establish consistency across our products, underpinned by gliff.ai branding.
+- [**DOCUMENT**](https://github.com/gliff-ai/document) – gliff.ai’s platform user documentation to support users engaging with our platform for curating, annotation and collaborating with imaging datasets for the purposes of developing imaging AI products.
 
-The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon.
-Every feature is added to a particular project board column according to the its progress.
+We also have released a plugin that has been developed during this process, which is:
 
-- If a feature is already release, it will be in the **released** column.
-- If a feature is expected to be introduced in the next 6 month's time, it will be in the **working** column.
-- If a feature is expected to be introduced in 6 month's time, it will be in the **future** column.
-- If a feature has been requested or proposed but no engineering has yet gone in to it, it will be in the**exploration** column.
+- [**geolocation-map**](https://github.com/gliff-ai/geolocation-map) – enabling users to have access to a visual interactive map using heat mapping to demonstrate the origin location of images within their dataset in one click. 
+
+## Guide
+
+[{{back to navigation}}](#table-of-contents)
+
+Our ROADMAP is documented through a github project board attached to this repository.
+
+The board is organised into **4 columns** to communicate development progress/status along with giving a sense of time scale on how far out each item is on the horizon. These are:
+
+- **released** – feature is already released.
+- **working** – feature is expected to be introduced within 6 months time.
+- **future** – feature is expected to be introduced after 6 months time.
+- **exploration** – fearure has been requested/proposed but no engineering has yet occured.
+
+Every item on the board is then categorised through **1 label group** to communicate location of product development. This is:
+
+**Product**  (gliff.ai green – #02FFAD)
+- [ANNOTATE](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AANNNOTATE+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [CURATE](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ACURATE+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [MANAGE](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3MANAGE+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [AUDIT](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AAUDIT+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [STYLE](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ASTYLE+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [REGISTER](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AREGISTER+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [UPLOAD](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3AUPLOAD+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+- [DOCUMENT](https://github.com/search?q=user%3Agliff-ai+repo%3Aroadmap+label%3ADOCUMENT+is%3Aopen++repo%3Aroadmap&type=Repositories&ref=advsearch&l=&l=)
+
+## Contribute
+
+[{{back to navigation}}](#table-of-contents)
+
+This repository **does not accept contributions** unfortunately as content has been developed with specific gliff.ai team practises and preferences in mind. _However_, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.
+
+We do have several repositories within the gliff.ai github space that  welcome all contributions and contributors on. These will be marked with the topic tag **contributions-welcome** meaning we welcome contributions on this repository! Search for them [here](https://github.com/search?q=topic%3Acontributors-welcome+org%3Agliff-ai&type=Repositories)!
+
+Check out the [gliff.ai Contribution Guide](https://github.com/gliff-ai/.github/blob/main/CONTRIBUTING.md) 👋 to learn more!
+
+## Contact
+
+[{{back to navigation}}](#table-of-contents)
+
+Need some help? 🤔 Have a question? 🧠 \
+Reach out to the gliff.ai team at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub]) or on our [GitHub discussions](https://github.com/gliff-ai/roadmap/discussions/landing).
